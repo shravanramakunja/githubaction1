@@ -1,21 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> okay make the changes
-        </p>
+    <div className="container">
+      <header>
+        <h1>Welcome to My React Homepage</h1>
+        <p>Your journey into React begins here.</p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/shravanramakunja/githubaction1"
+          className="button"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          View GitHub Repo
         </a>
       </header>
     </div>
